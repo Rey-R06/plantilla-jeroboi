@@ -1,3 +1,4 @@
+/*pasar de posicion absoluta a posicion relativa*/
 .menu {
     position: absolute;
     right: 0;
@@ -22,6 +23,9 @@
     background: black;
     display: flex;
 }
+.fondo {
+    height: 600px;
+}
 .form {
     width: 200px;
     height: fit-content;
@@ -30,7 +34,10 @@
     width: 80%;
 }
 
+main .nosotros{
+    position: relative;
+}
 footer{
-    bottom: -140%;
+    position: static;
     height: 200px;
 }
