@@ -19,6 +19,7 @@
 }
 
 .menu-toggle:checked + .menu-icon + .menu {
+    background: black;
     display: flex;
 }
 .form {
