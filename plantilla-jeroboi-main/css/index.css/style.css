@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff81;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: cornflowerblue;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav {
+    position: relative;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    border-radius: 5px;
+    background-color: #575757;
+}
+nav .menu-toggle{
+    opacity: 0;
+    visibility:visible;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: -2px;
+}
+
+.fondo {
+    width: 100%;
+    height: 1000px;
+}
+.fondo img {
+    width: 100%;
+    height: auto;
+}
+main .titulo{
+    display: flex;
+    justify-content: center;
+}
+.pos-form h1, h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    color: white;
+}
+.pos-form h2{
+    font-size: 1.5rem;
+    margin: 120px;
+}
+.pos-form{
+    display: flex;
+    justify-content: center;
+}
+.form {
+    position: absolute;
+    padding: 20px;
+    margin-top: 170px;
+    background: #007BFF;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: fit-content;
+}
+
+.form label {
+    margin: 15px 0 15px 0;
+    font-weight: bold;
+}
+
+.form input {
+    margin: 20px 0 10px 0;
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.form button {
+    margin: 10px 0 0 0;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form p{text-align: center;
+}
+.form button:hover {
+    background-color: #0056b3;
+}
+
+main .nosotros{
+    position: absolute;
+    width: 100%;
+    top: 120%;
+    color: #000000;
+    background: #007BFF;
+}
+.nosotros h3{
+    text-align: center;
+    margin: 20px 0 0 0; 
+    font-size: 2rem;
+}
+.nosotros p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px 10px 0 10px; 
+    padding: 0 40px 10px 40px;
+}
+main .inferior{
+    width: 100%;
+    position: relative;
+    bottom: 20%;
+    color: #000000;
+    background: #ffffff;
+}
+footer{
+    bottom: -600px;
+    position: absolute;
+    text-align: center;
+    background: #000000;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+
+footer p{
+    font-size: 2rem;
+}
+footer a{
+    text-decoration: none;
+    color: #007BFF;
+}

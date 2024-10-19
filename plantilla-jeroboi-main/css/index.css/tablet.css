@@ -1,0 +1,43 @@
+/*pasar de posicion absoluta a posicion relativa*/
+.menu {
+    position: absolute;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+.menu li {
+    text-align: center;
+    margin: 0;
+    width: 100px;
+    height: 25px;
+    padding: 15px;
+}
+
+.menu-icon {
+    display: block;
+}
+
+.menu-toggle:checked + .menu-icon + .menu {
+    background: black;
+    display: flex;
+}
+.fondo {
+    height: 600px;
+}
+.form {
+    width: 200px;
+    height: fit-content;
+}
+.form input {
+    width: 80%;
+}
+
+main .nosotros{
+    position: relative;
+}
+footer{
+    position: static;
+    height: 200px;
+}
