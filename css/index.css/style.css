@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#ffffff81;
+    background-color:#CAC0B3;
 }
 
 header {
@@ -10,8 +10,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: black;
-    color: cornflowerblue;
+    background-color: #001233;
+    color: #CAC0B3;
 }
 
 .logo {
@@ -41,14 +41,14 @@ nav {
 
 .menu a {
     text-decoration: none;
-    color: cornflowerblue;
+    color: rgb(255, 255, 255);
     padding: 5px 10px;
     transition: background-color 0.3s;
 }
 
 .menu a:hover {
     border-radius: 5px;
-    background-color: #575757;
+    background-color: #294e94;
 }
 nav .menu-toggle{
     opacity: 0;
@@ -76,7 +76,7 @@ main .titulo{
     display: flex;
     justify-content: center;
     position: absolute;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .pos-form h2{
     font-size: 1.5rem;
@@ -90,7 +90,7 @@ main .titulo{
     position: absolute;
     padding: 20px;
     margin-top: 170px;
-    background: #007BFF;
+    background: #055c6b;
     display: flex;
     border-radius: 10px;
     border: 1px solid white;
@@ -119,7 +119,7 @@ main .titulo{
     padding: 10px;
     border: 1px solid black;
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: #EAE7DD;
     color: #000000;
     font-size: 16px;
     cursor: pointer;
@@ -127,15 +127,15 @@ main .titulo{
 .form p{text-align: center;
 }
 .form button:hover {
-    background-color: #0056b3;
+    background-color: #EAE7DD;
 }
 
 main .nosotros{
     position: absolute;
     width: 100%;
     top: 120%;
-    color: #000000;
-    background: #007BFF;
+    color: #ffffff;
+    background: #CAC0B3;
 }
 .nosotros h3{
     text-align: center;
@@ -153,13 +153,13 @@ main .inferior{
     position: relative;
     bottom: 20%;
     color: #000000;
-    background: #ffffff;
+    background: #CAC0B3;
 }
 footer{
-    bottom: -600px;
+    bottom: -530px;
     position: absolute;
     text-align: center;
-    background: #000000;
+    background: #001233;
     color: white;
     width: 100%;
     height: 100px;
@@ -170,5 +170,4 @@ footer p{
 }
 footer a{
     text-decoration: none;
-    color: #007BFF;
 }
