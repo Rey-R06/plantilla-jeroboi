@@ -21,8 +21,7 @@ header{
 
 nav .menu-icon{
     margin: 0;
-    opacity: 1;
-    visibility:visible;
+    opacity: 0;
     visibility: hidden;
 }
 
@@ -32,7 +31,7 @@ nav .menu-icon{
     list-style: none;
     text-align: center;
     padding: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 110px;
 }
 
 .logo{

@@ -1,3 +1,20 @@
+function despliegueMenu() {
+    const menuD = document.querySelector(".menu-icon");
+    const menu = document.querySelector(".menu");
+
+    menuD.addEventListener("click", () => {
+        if (menu.style.visibility === "visible") {
+            menu.style.visibility = "hidden";
+            menu.style.opacity = 0;
+        } else {
+            menu.style.visibility = "visible";
+            menu.style.opacity = 1;
+        }
+    });
+}
+// Llamar a la función al cargar la página
+document.addEventListener("DOMContentLoaded", despliegueMenu);
+
 function cambioImg() {
     const imagen = document.getElementById("imagen");
 

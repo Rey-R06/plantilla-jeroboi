@@ -1,0 +1,82 @@
+body {
+    min-height: auto; /* Adaptación para pantallas más pequeñas */
+    font-size: 0.9rem; /* Reducir el tamaño de fuente */
+}
+
+header {
+    padding: 0;
+}
+
+.menu {
+    position: relative;
+    top: -20px;
+    right: 0;
+    width: 100px;
+    border: 2px #CAC0B3 solid;
+    background: #001233;
+    flex-direction: column; /* Cambia a un diseño vertical */
+    gap: 20px;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    margin: 0 0 50px 0;
+}
+
+nav .menu-icon {
+    margin-top: 180px;
+    margin-left: 20px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu a {
+    font-size: 1rem; /* Reduce el tamaño de las fuentes */
+}
+
+.logo {
+    padding: 35px 20px;
+    width: 60px;
+    height: 60px;
+}
+
+main .titulo {
+    font-size: 1.5rem;
+    top: 0; /* Ajusta la posición del título */
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+form input {
+    width: 80%; /* Reduce el ancho de los campos de entrada */
+}
+
+form button {
+    width: 80px;
+}
+
+.nosotros {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.nosotros h3 {
+    font-size: 1.5rem;
+}
+
+.nosotros p {
+    margin: 0 20px;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+
+footer {
+    font-size: 1.5rem; 
+    padding: 10px;
+}
