@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOATON BIKES</title>
-    <link rel="stylesheet" href="./css/index.css/style.css">
+    <title>BOATON BIKES plus +</title>
+    <link rel="stylesheet" href="/css/index/style.css">
     <link rel="stylesheet" href="./css/index.css/tablet.css" media="(max-width: 768px)">
     <link rel="stylesheet" href="./css/index.css/celular.css" media="(max-width: 470px)">
 </head>
 <body>
     <header>
-        <div class="logo">Mi Logo</div>
+        <img class="logo" src="/assets/img/diseno-de-logo.png">
         <nav>
-            <input type="checkbox" class="menu-toggle">
-            <label for="menu-toggle" class="menu-icon">☰</label>
+            <p class="menu-icon">☰</p>
             <ul class="menu">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Servicios</a></li>
@@ -27,7 +26,7 @@
                 <h1>BOSTON BIKES</h1>
                 <h2>Registro</h2>
             </div>
-            <form class="form">
+            <form>
                 <input type="text" name="nombre" placeholder="Nombre" required>
 
                 <input type="text" name="apellido"placeholder="Apellido" required> 
@@ -42,7 +41,7 @@
             </form>
         </section>
         <section class="fondo">
-             <img src="./assets/multimedia/fondo-bici.png" alt="bicicleta en el bosque">
+             <img id="imagen" src="/assets/img/fondo-bici.png" alt="bicicleta en el bosque">
         </section>
         <section class="nosotros">
             <article>
@@ -60,7 +59,7 @@
                 </p>
             </article>
             <hr>
-            <article class="inferior">
+            <article>
                 <h3>¿QUE ESPERAS PARA CREAR UNA CUENTA?</h3>
                 <p>
                     Con tu cuenta sera mas facil realizar cualquiera de
@@ -72,5 +71,6 @@
     <footer>
         <p><a href="./index.html">© 2024 Boston Bikes.</a>Todos los derechos reservados.</p>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>

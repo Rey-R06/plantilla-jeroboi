@@ -1,0 +1,154 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 
+      auto 1fr auto;
+    min-height: 100dvh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #CAC0B3;
+}
+
+header{
+    background-color: #001233;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+nav .menu-icon{
+    margin: 0;
+    opacity: 1;
+    visibility:visible;
+    visibility: hidden;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.logo{
+    padding-left: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+.menu a{
+    font-size: 1.2rem;
+    color: #CAC0B3;
+    text-decoration: none;
+}
+
+.menu li{
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+}
+
+.menu li:hover{
+    background-color: #26344e;
+}
+
+/*main*/
+/* Contenedor principal para asegurarse de que la imagen esté en el fondo */
+main {
+    position: relative;
+    z-index: 2; /* Hace que el contenido de main esté por encima de la imagen */
+    text-align: center;
+}
+
+/* Configuración de la imagen de fondo */
+.fondo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1; /* Coloca la imagen en el fondo */
+}
+
+/* Estilos para el texto */
+main .titulo {
+    position: absolute;
+    text-align: center;
+    top: 10%; /* Centra verticalmente */
+    left: 46%; /* Centra horizontalmente */
+    transform: translate(-10%, -46%);
+    z-index: 3;
+}
+
+/* Estilos para el formulario */
+.pos-form{
+    margin: 150px 0 50px 0;
+    
+}
+
+form {
+    position: relative; /* Mantiene el formulario encima de la imagen */
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(38, 52, 78, 0.6); /* Fondo semi-transparente para visibilidad */
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 300px;
+    height: 400px;
+    z-index: 3; /* Asegura que el formulario esté encima del fondo */
+}
+
+form input{
+    height: 30px;
+    width: 250px;
+    border: none;
+    background: none;
+    border-bottom: 3px rgb(255, 255, 255) solid;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+form p{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+form button{
+    border: 1px black solid;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.nosotros{
+    margin-top: 60px;
+    color: black;
+    background-color: #F5F5DC;
+}
+
+.nosotros h3{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.nosotros p{
+    margin: 0 40px;
+    padding: 10px;
+}
+
+footer{
+    min-height: 20dvh;
+    height: 100px;
+    background: #001233;
+    font-size: 2rem;
+    text-align: center;
+}
